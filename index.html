@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="theme-color" content="#f5f9ff">
+<title>Zoha Ansari – Learn Digital Skills | For Women</title>
+<meta name="description" content="A guided skill-learning community for women. Learn practical digital skills at your own pace with Zoha Ansari.">
+<meta property="og:title" content="Zoha Ansari – Digital Skills for Women">
+<meta property="og:description" content="Learn practical digital skills step by step, at your own pace. Women-only community.">
+<meta property="og:image" content="https://i.ibb.co/qMDd5pM8/Whats-App-Image-2026-11-16-at-2-38-10-PM-copy.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1609093500184090'); fbq('track','PageView');
+</script>
+<noscript><style>.rv{opacity:1!important;transform:none!important;filter:none!important}</style></noscript>
+
+<style>
+:root{
+  --bg:#f5f9ff; --bg2:#eaf2ff; --white:#fff;
+  --navy:#07122b; --navy2:#0b1d44;
+  --ink:#0b1730; --muted:#5b6b88;
+  --blue:#0a66ff; --blue2:#3b8cff; --sky:#8ec5ff;
+  --line:rgba(10,40,100,.1);
+  --grad:linear-gradient(135deg,#0a66ff,#4aa3ff);
+  --shadow:0 20px 60px -20px rgba(10,60,160,.28);
+  --ease:cubic-bezier(.16,1,.3,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+h1,h2,h3,h4{letter-spacing:-.035em;line-height:1.08;font-weight:700}
+.container{max-width:1100px;margin:0 auto;padding:0 22px}
+section{padding:110px 0;position:relative}
+@media(max-width:640px){section{padding:72px 0}}
+.eyebrow{font-size:.82rem;font-weight:600;letter-spacing:.04em;color:var(--blue);margin-bottom:14px;display:block}
+.title{font-size:clamp(2rem,5.2vw,3.5rem);margin-bottom:16px}
+.sub{color:var(--muted);font-size:clamp(1.05rem,2.2vw,1.3rem);max-width:640px;line-height:1.5}
+.center{text-align:center}.center .sub{margin:0 auto}
+.grad{background:linear-gradient(100deg,#0a66ff,#5ab0ff 55%,#0a66ff);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:flow 8s ease-in-out infinite alternate}
+@keyframes flow{to{background-position:100% center}}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--blue);color:#fff;border:none;border-radius:980px;padding:16px 32px;font:600 1.02rem 'Inter',sans-serif;cursor:pointer;text-decoration:none;transition:transform .5s var(--ease),background .3s,box-shadow .5s var(--ease);box-shadow:0 10px 30px -8px rgba(10,102,255,.55)}
+.btn:hover{transform:scale(1.04);background:#0058e6;box-shadow:0 16px 40px -8px rgba(10,102,255,.6)}
+.btn:active{transform:scale(.98)}
+.btn.lg{padding:19px 40px;font-size:1.1rem}
+.btn.ghost{background:transparent;color:var(--blue);box-shadow:none}
+.btn.ghost:hover{background:rgba(10,102,255,.08)}
+.btn.white{background:#fff;color:var(--blue)}
+
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(245,249,255,.72);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid transparent;transition:border-color .4s}
+nav.sc{border-color:var(--line)}
+.nav-in{height:60px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:700;font-size:1.08rem;letter-spacing:-.02em}
+.logo i{font-style:normal;color:var(--blue)}
+.nav-r{display:flex;align-items:center;gap:26px}
+.nav-r a.l{color:var(--muted);font-size:.88rem;font-weight:500;text-decoration:none;transition:color .3s}
+.nav-r a.l:hover{color:var(--ink)}
+.nav-r .btn{padding:9px 20px;font-size:.88rem;box-shadow:none}
+@media(max-width:760px){.nav-r a.l{display:none}}
+
+/* hero */
+.hero{padding:120px 0 80px;text-align:center;overflow:hidden;background:radial-gradient(900px 500px at 50% -10%,#dbeaff,transparent 70%),var(--bg)}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);padding:8px 18px;border-radius:980px;font-size:.85rem;font-weight:600;color:var(--blue);box-shadow:0 4px 16px -6px rgba(10,60,160,.2);margin-bottom:26px}
+.badge b{width:7px;height:7px;border-radius:50%;background:var(--blue);animation:pulse 2.4s var(--ease) infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(10,102,255,.5)}80%,100%{box-shadow:0 0 0 9px rgba(10,102,255,0)}}
+.hero h1{font-size:clamp(2.5rem,7.4vw,5.2rem);max-width:900px;margin:0 auto 22px}
+.hero .sub{margin:0 auto 34px}
+.hero-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.stage{margin:64px auto 0;max-width:420px;position:relative;perspective:1200px}
+.photo{position:relative;border-radius:34px;overflow:hidden;background:#dbe9ff;box-shadow:var(--shadow),0 0 0 1px var(--line);transform:translateY(var(--ty,0)) scale(var(--sc,1));transition:transform .15s linear;will-change:transform}
+.photo img{width:100%;height:auto;min-height:380px;max-height:600px;object-fit:cover;object-position:center 20%}
+.stage::before{content:'';position:absolute;inset:8% -12% -6%;background:radial-gradient(closest-side,rgba(10,102,255,.35),transparent);filter:blur(40px);z-index:-1;animation:breathe 7s ease-in-out infinite}
+@keyframes breathe{50%{opacity:.55;transform:scale(1.06)}}
+.glass{position:absolute;background:rgba(255,255,255,.78);backdrop-filter:blur(18px) saturate(180%);-webkit-backdrop-filter:blur(18px) saturate(180%);border:1px solid rgba(255,255,255,.9);border-radius:18px;padding:12px 18px;font-size:.84rem;font-weight:600;box-shadow:0 14px 34px -12px rgba(10,60,160,.35);animation:float 7s ease-in-out infinite;text-align:left;line-height:1.3}
+.glass small{display:block;color:var(--muted);font-weight:500;font-size:.72rem}
+.g1{left:-9%;bottom:16%}.g2{right:-9%;top:12%;animation-delay:-3.5s}
+@keyframes float{50%{transform:translateY(-10px)}}
+@media(max-width:560px){.g1{left:-3%}.g2{right:-3%}}
+.nm{margin-top:34px}
+.nm b{display:block;font-size:1.3rem;letter-spacing:-.02em}
+.nm span{color:var(--muted);font-size:.95rem}
+
+/* strip */
+.strip{padding:0;background:var(--navy);color:#cfe0ff}
+.strip .container{display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.strip div.i{padding:28px 14px;text-align:center;font-size:.92rem;font-weight:500;border-right:1px solid rgba(255,255,255,.08)}
+.strip div.i:last-child{border:none}
+.strip b{display:block;color:#fff;font-size:1.05rem;letter-spacing:-.01em}
+@media(max-width:700px){.strip .container{grid-template-columns:1fr 1fr}.strip div.i:nth-child(2){border-right:none}.strip div.i:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.08)}}
+
+/* why cards */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:56px}
+@media(max-width:860px){.grid3{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:34px 30px;transition:transform .7s var(--ease),box-shadow .7s var(--ease)}
+.card:hover{transform:translateY(-8px);box-shadow:var(--shadow)}
+.card .ic{width:52px;height:52px;border-radius:16px;background:var(--bg2);display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:22px}
+.card h3{font-size:1.3rem;margin-bottom:10px}
+.card p{color:var(--muted);font-size:1rem}
+
+/* dark mentor */
+.dark{background:linear-gradient(180deg,var(--navy),var(--navy2));color:#fff;overflow:hidden}
+.dark::before{content:'';position:absolute;width:620px;height:620px;border-radius:50%;background:radial-gradient(closest-side,rgba(10,102,255,.45),transparent);top:-200px;right:-160px;filter:blur(30px)}
+.dark .eyebrow{color:var(--sky)}.dark .sub{color:#aac0e8}
+.m-wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:center;position:relative}
+@media(max-width:860px){.m-wrap{grid-template-columns:1fr;gap:44px}}
+.m-photo{border-radius:30px;overflow:hidden;box-shadow:0 30px 80px -20px rgba(0,0,0,.6);max-width:400px;margin:0 auto;width:100%;background:#12275a}
+.m-photo img{width:100%;height:auto;min-height:380px;max-height:540px;object-fit:cover;object-position:center 20%;transition:transform 1.4s var(--ease)}
+.m-photo:hover img{transform:scale(1.05)}
+.dark p{color:#aac0e8;font-size:1.08rem;margin-bottom:16px}
+.pills{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 30px}
+.pills span{border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);padding:9px 18px;border-radius:980px;font-size:.88rem;font-weight:500;color:#dbe8ff}
+
+/* steps */
+.steps{max-width:760px;margin:56px auto 0}
+.step{display:grid;grid-template-columns:64px 1fr;gap:22px;padding:30px 0;border-bottom:1px solid var(--line);align-items:start}
+.step:last-child{border:none}
+.step .n{font-size:2.6rem;font-weight:800;letter-spacing:-.05em;color:#c4dcff;transition:color .8s var(--ease)}
+.step.in .n{color:var(--blue)}
+.step h3{font-size:1.3rem;margin-bottom:6px}
+.step p{color:var(--muted)}
+
+/* gallery */
+.gal-sec{background:var(--bg2);overflow:hidden}
+.gal{display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:46px 22px 24px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.gal::-webkit-scrollbar{display:none}
+.shot{flex:0 0 auto;width:min(250px,64vw);scroll-snap-align:center;border-radius:24px;overflow:hidden;background:#fff;border:1px solid var(--line);box-shadow:0 14px 40px -18px rgba(10,60,160,.35);cursor:zoom-in;transition:transform .7s var(--ease),box-shadow .7s var(--ease)}
+.shot:hover{transform:translateY(-8px) scale(1.02);box-shadow:var(--shadow)}
+.shot img{width:100%;height:auto;min-height:200px}
+.gal-nav{display:flex;justify-content:center;gap:12px;margin-top:6px}
+.gal-nav button{width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--blue);font-size:1.2rem;cursor:pointer;transition:transform .4s var(--ease),background .3s}
+.gal-nav button:hover{transform:scale(1.1);background:var(--blue);color:#fff}
+.note{text-align:center;color:var(--muted);font-size:.82rem;margin-top:18px;padding:0 20px}
+.lb{position:fixed;inset:0;z-index:10000;background:rgba(5,12,30,.88);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:opacity .5s var(--ease),visibility .5s;padding:20px}
+.lb.show{opacity:1;visibility:visible}
+.lb img{max-width:100%;max-height:88vh;border-radius:18px;transform:scale(.92);transition:transform .6s var(--ease)}
+.lb.show img{transform:scale(1)}
+.lb button{position:absolute;top:18px;right:22px;background:none;border:none;color:#fff;font-size:2.2rem;cursor:pointer}
+
+/* FAQ */
+.faq{max-width:760px;margin:50px auto 0}
+.q{border-bottom:1px solid var(--line)}
+.q button{width:100%;background:none;border:none;font:600 1.08rem 'Inter',sans-serif;letter-spacing:-.01em;color:var(--ink);text-align:left;padding:24px 4px;display:flex;justify-content:space-between;gap:16px;align-items:center;cursor:pointer}
+.q i{position:relative;width:20px;height:20px;flex-shrink:0}
+.q i::before,.q i::after{content:'';position:absolute;top:50%;left:50%;width:14px;height:2px;background:var(--blue);border-radius:2px;transform:translate(-50%,-50%);transition:transform .6s var(--ease)}
+.q i::after{transform:translate(-50%,-50%) rotate(90deg)}
+.q.open i::after{transform:translate(-50%,-50%) rotate(0)}
+.q .a{display:grid;grid-template-rows:0fr;transition:grid-template-rows .6s var(--ease)}
+.q.open .a{grid-template-rows:1fr}
+.q .a>div{overflow:hidden}
+.q .a p{color:var(--muted);padding:0 4px 24px}
+
+/* final */
+.final{background:linear-gradient(135deg,#0a4fd6,#2b8bff);color:#fff;text-align:center;overflow:hidden}
+.final::before,.final::after{content:'';position:absolute;border-radius:50%;background:rgba(255,255,255,.12);filter:blur(40px);animation:float 10s ease-in-out infinite}
+.final::before{width:380px;height:380px;left:-100px;top:-120px}
+.final::after{width:300px;height:300px;right:-80px;bottom:-100px;animation-delay:-5s}
+.final .container{position:relative;z-index:1}
+.final h2{font-size:clamp(2rem,5.4vw,3.6rem);max-width:760px;margin:0 auto 16px}
+.final p{color:#dbe9ff;font-size:1.15rem;max-width:560px;margin:0 auto 34px}
+.how{max-width:520px;margin:44px auto 0;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:24px;padding:26px 28px;text-align:left;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.how h4{margin-bottom:8px;font-size:1.05rem}
+.how li{margin:5px 0 5px 18px;color:#e6f0ff}
+
+footer{background:var(--navy);color:#8ea6d6;text-align:center;padding:50px 0 46px;font-size:.88rem}
+footer .logo{color:#fff;margin-bottom:12px}
+footer .qt{color:#cfe0ff;font-size:1.02rem;max-width:520px;margin:0 auto 16px}
+footer button{background:none;border:none;color:#8ea6d6;text-decoration:underline;cursor:pointer;font:inherit;margin-bottom:12px}
+footer p.d{max-width:620px;margin:10px auto 0;font-size:.78rem;opacity:.75}
+
+/* modal */
+.bd{position:fixed;inset:0;background:rgba(5,12,30,.5);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);z-index:9998;opacity:0;visibility:hidden;transition:opacity .5s var(--ease),visibility .5s}
+.bd.show{opacity:1;visibility:visible}
+.modal{position:fixed;left:50%;top:50%;z-index:9999;width:92%;max-width:450px;max-height:90vh;overflow:auto;background:#fff;border-radius:30px;padding:36px 28px;box-shadow:0 40px 100px -20px rgba(0,20,80,.5);transform:translate(-50%,-44%) scale(.94);opacity:0;visibility:hidden;transition:all .6s var(--ease)}
+.modal.show{transform:translate(-50%,-50%) scale(1);opacity:1;visibility:visible}
+.modal .x{position:absolute;top:14px;right:18px;border:none;background:none;font-size:1.8rem;color:var(--muted);cursor:pointer}
+.modal h3{font-size:1.6rem;margin-bottom:4px}
+.modal .ms{color:var(--muted);font-size:.93rem;margin-bottom:22px}
+.f{margin-bottom:14px}
+.f label{display:block;font-size:.8rem;font-weight:600;margin-bottom:6px}
+.f input,.f select{width:100%;border:1.5px solid #dbe5f5;background:#f6f9ff;border-radius:14px;padding:14px 15px;font:1rem 'Inter',sans-serif;color:var(--ink);transition:border-color .3s,box-shadow .3s,background .3s}
+.f input:focus,.f select:focus{outline:none;border-color:var(--blue);background:#fff;box-shadow:0 0 0 4px rgba(10,102,255,.14)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.er{color:#d92d4b;font-size:.78rem;margin-top:4px;display:none}
+.f.bad .er{display:block}.f.bad input,.f.bad select{border-color:#e5484d}
+.sec{text-align:center;color:var(--muted);font-size:.78rem;margin-top:12px}
+.pp p{color:var(--muted);font-size:.92rem;margin-bottom:12px}.pp strong{color:var(--ink)}
+
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:800;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(245,249,255,.88);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-top:1px solid var(--line);display:none;transform:translateY(110%);transition:transform .7s var(--ease)}
+.sticky.show{transform:none}
+.sticky .btn{width:100%;padding:15px}
+@media(max-width:768px){.sticky{display:block}}
+
+/* reveal: apple-style fade + soft blur */
+.rv{opacity:0;transform:translateY(40px) scale(.985);filter:blur(6px);transition:opacity 1.2s var(--ease),transform 1.2s var(--ease),filter 1.2s var(--ease);transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none;filter:none}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none;filter:none}}
+</style>
+</head>
+<body>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1609093500184090&ev=PageView&noscript=1" alt=""/></noscript>
+
+<nav id="nav"><div class="container nav-in">
+  <div class="logo">Zoha<i>Ansari</i></div>
+  <div class="nav-r">
+    <a class="l" href="#about">About</a><a class="l" href="#how">How it works</a><a class="l" href="#voices">Community</a><a class="l" href="#faq">FAQ</a>
+    <button class="btn open" data-source="Navbar">Join Now</button>
+  </div>
+</div></nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="container">
+    <div class="badge rv"><b></b> Women-only learning community</div>
+    <h1 class="rv" style="--d:.1s">Learn a skill.<br><span class="grad">Shape your own path.</span></h1>
+    <p class="sub rv" style="--d:.2s">A calm, guided space for women to learn practical digital skills step by step — at your own pace, right from your phone.</p>
+    <div class="hero-btns rv" style="--d:.3s">
+      <button class="btn lg open" data-source="Hero">Join the Community</button>
+      <a class="btn ghost lg" href="#about">Meet Zoha ›</a>
+    </div>
+    <div class="stage rv" style="--d:.4s">
+      <div class="photo" id="photo"><img src="https://i.ibb.co/qMDd5pM8/Whats-App-Image-2026-11-16-at-2-38-10-PM-copy.jpg" alt="Zoha Ansari" fetchpriority="high" referrerpolicy="no-referrer"></div>
+      <div class="glass g1">📱 Learn on phone<small>No laptop needed</small></div>
+      <div class="glass g2">🌸 Only for women<small>Safe &amp; supportive</small></div>
+    </div>
+    <div class="nm rv"><b>Zoha Ansari</b><span>Skills Mentor</span></div>
+  </div>
+</header>
+
+<div class="strip"><div class="container">
+  <div class="i"><b>Beginner friendly</b>Start from zero</div>
+  <div class="i"><b>Learn on phone</b>Anytime, anywhere</div>
+  <div class="i"><b>Women only</b>Supportive circle</div>
+  <div class="i"><b>Guided</b>Step by step</div>
+</div></div>
+
+<!-- WHY -->
+<section>
+  <div class="container">
+    <div class="center">
+      <span class="eyebrow rv">Why join</span>
+      <h2 class="title rv">Simple. Structured. <span class="grad">Made for you.</span></h2>
+      <p class="sub rv">Everything is explained clearly, without jargon, so you can focus on learning.</p>
+    </div>
+    <div class="grid3">
+      <div class="card rv"><div class="ic">🌱</div><h3>Start from zero</h3><p>No prior experience or degree required. We begin with the basics and build up gently.</p></div>
+      <div class="card rv" style="--d:.12s"><div class="ic">⏰</div><h3>Learn at your pace</h3><p>Fit it around your day. A little time each day is enough to keep moving forward.</p></div>
+      <div class="card rv" style="--d:.24s"><div class="ic">💬</div><h3>Guidance &amp; community</h3><p>Ask questions, get support, and learn alongside other women with similar goals.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- MENTOR -->
+<section class="dark" id="about">
+  <div class="container m-wrap">
+    <div class="m-photo rv"><img src="https://i.ibb.co/gMnhGgqz/Whats-App-Image-2026-11-16-at-2-38-10-PM.jpg" alt="Zoha Ansari" loading="lazy" referrerpolicy="no-referrer"></div>
+    <div>
+      <span class="eyebrow rv">Your mentor</span>
+      <h2 class="title rv" style="--d:.1s">Hi, I'm <span class="grad" style="background-image:linear-gradient(100deg,#8ec5ff,#fff,#8ec5ff)">Zoha Ansari</span></h2>
+      <p class="rv" style="--d:.2s">I created this space for women who want to learn something new and grow with confidence. Skills stay with you for life, and everyone deserves a clear, friendly place to begin.</p>
+      <p class="rv" style="--d:.3s">My focus is simple: practical learning, honest guidance, and a supportive community where every question is welcome.</p>
+      <div class="pills rv" style="--d:.4s"><span>Skills Mentor</span><span>Women Community</span><span>Beginner Friendly</span></div>
+      <button class="btn white rv open" style="--d:.5s" data-source="Mentor Section">Connect on WhatsApp</button>
+    </div>
+  </div>
+</section>
+
+<!-- HOW -->
+<section id="how">
+  <div class="container">
+    <div class="center">
+      <span class="eyebrow rv">How it works</span>
+      <h2 class="title rv">Three simple steps.</h2>
+    </div>
+    <div class="steps">
+      <div class="step rv"><div class="n">01</div><div><h3>Share your details</h3><p>Fill the short form with your name, number, age and profession.</p></div></div>
+      <div class="step rv"><div class="n">02</div><div><h3>Connect on WhatsApp</h3><p>Your details reach us directly and you start a conversation with the team.</p></div></div>
+      <div class="step rv"><div class="n">03</div><div><h3>Begin learning</h3><p>Get program information, guidance and a clear starting point to learn at your pace.</p></div></div>
+    </div>
+    <div class="center rv" style="margin-top:34px"><button class="btn lg open" data-source="Steps Section">Get Started</button></div>
+  </div>
+</section>
+
+<!-- COMMUNITY -->
+<section class="gal-sec" id="voices">
+  <div class="container center">
+    <span class="eyebrow rv">Community</span>
+    <h2 class="title rv">Messages from our <span class="grad">community.</span></h2>
+    <p class="sub rv">A glimpse of conversations shared by women in our circle. Tap any to view.</p>
+  </div>
+  <div class="gal" id="gal"></div>
+  <div class="gal-nav"><button id="gp" aria-label="Previous">‹</button><button id="gn" aria-label="Next">›</button></div>
+  <p class="note">Shared with permission. Individual experiences and results vary and are not guaranteed.</p>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="center"><span class="eyebrow rv">FAQ</span><h2 class="title rv">Questions, answered.</h2></div>
+    <div class="faq rv">
+      <div class="q open"><button>Who is this for?<i></i></button><div class="a"><div><p>This community is exclusively for women who want to learn practical digital skills, including students, homemakers and working professionals.</p></div></div></div>
+      <div class="q"><button>Do I need any experience?<i></i></button><div class="a"><div><p>No. We start from the basics and guide you step by step.</p></div></div></div>
+      <div class="q"><button>How much time is needed?<i></i></button><div class="a"><div><p>It's flexible. Many members learn for an hour or two a day around their routine.</p></div></div></div>
+      <div class="q"><button>Do I need a laptop?<i></i></button><div class="a"><div><p>No, a smartphone with internet is enough to get started.</p></div></div></div>
+      <div class="q"><button>What happens after I submit the form?<i></i></button><div class="a"><div><p>WhatsApp opens with your details so you can message our team directly. We'll share program information and next steps.</p></div></div></div>
+      <div class="q"><button>Are results guaranteed?<i></i></button><div class="a"><div><p>No. Learning outcomes depend on individual effort, consistency and circumstances. We provide guidance and support, not guarantees.</p></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="final">
+  <div class="container">
+    <h2 class="rv">Ready to begin something new?</h2>
+    <p class="rv" style="--d:.1s">Take the first step today. Join a supportive community built for women.</p>
+    <button class="btn white lg rv open" style="--d:.2s" data-source="Final CTA">Join the Community</button>
+    <div class="how rv" style="--d:.3s">
+      <h4>How to start</h4>
+      <ul><li>Tap the button and fill the short form</li><li>WhatsApp opens with your details</li><li>Send the message to connect with the team</li></ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="logo">Zoha<i style="color:#5aa6ff">Ansari</i></div>
+    <p class="qt">Your future doesn't change by waiting. It changes when you decide.</p>
+    <button id="ppBtn">Privacy Policy</button>
+    <div>© 2026 Zoha Ansari. All rights reserved.</div>
+    <p class="d">Disclaimer: This page is for informational and educational purposes. We do not promise or guarantee any specific outcome or income. Results depend on individual effort and circumstances.</p>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky"><button class="btn open" data-source="Sticky Bar">Join the Community</button></div>
+
+<!-- lightbox -->
+<div class="lb" id="lb"><button aria-label="Close">×</button><img alt="Community message"></div>
+
+<!-- form -->
+<div class="bd" id="bd"></div>
+<div class="modal" id="fm" role="dialog" aria-modal="true">
+  <button class="x" id="fx" aria-label="Close">×</button>
+  <h3>Join the community</h3>
+  <p class="ms">Women-only. Fill your details and continue on WhatsApp.</p>
+  <form id="form" novalidate>
+    <input type="hidden" id="src">
+    <div class="f"><label>Full name</label><input id="i_name" type="text" placeholder="Your name" autocomplete="name"><div class="er">Please enter your name</div></div>
+    <div class="f"><label>WhatsApp number</label><input id="i_phone" type="tel" inputmode="numeric" maxlength="10" placeholder="10-digit number" autocomplete="tel"><div class="er">Enter a valid 10-digit number</div></div>
+    <div class="row">
+      <div class="f"><label>Age</label><input id="i_age" type="number" min="15" max="65" placeholder="Age"><div class="er">Age 15–65</div></div>
+      <div class="f"><label>Gender</label><select id="i_gender"><option value="">Select</option><option value="female" selected>Female</option><option value="male">Male</option><option value="other">Other</option></select><div class="er">Select one</div></div>
+    </div>
+    <div class="f"><label>Profession</label><select id="i_prof"><option value="">Select your status</option><option>Student</option><option>Housewife</option><option>Working Professional</option><option>Other</option></select><div class="er">Select one</div></div>
+    <button type="submit" class="btn" style="width:100%">Continue on WhatsApp</button>
+    <p class="sec">🔒 Your details are kept private.</p>
+  </form>
+</div>
+
+<div class="modal pp" id="pm" role="dialog" aria-modal="true">
+  <button class="x" id="px" aria-label="Close">×</button>
+  <h3 style="margin-bottom:16px">Privacy Policy</h3>
+  <p><strong>Information We Collect:</strong> Name, phone, age and profession you provide via our form.</p>
+  <p><strong>How We Use It:</strong> Only to share program info, provide mentorship support and updates. Never sold to third parties.</p>
+  <p><strong>Data Security:</strong> We implement industry-standard measures. Data is accessed only by authorized personnel.</p>
+  <p><strong>Your Rights:</strong> Access, correct, or delete your data anytime by contacting us on WhatsApp.</p>
+  <p><strong>Disclaimer:</strong> Results depend on personal effort and consistency. No outcome is guaranteed.</p>
+  <p style="text-align:center">© 2026 Zoha Ansari. All rights reserved.</p>
+</div>
+
+<script>
+const SCRIPT_URL="https://script.google.com/macros/s/AKfycbwaUerhAnk90PCvCDu-h8ghQZwi6e8k97GeS0azTFpmXMxaxNcMMEeqZ9wA9GxMGhWk/exec";
+const WA_NUMBER="918115762825";
+const CLIENT="Zoha Ansari";
+const SHOTS=[
+"https://i.ibb.co/tPD1QGJf/Whats-App-Image-2026-11-16-at-2-37-00-PM-1.jpg",
+"https://i.ibb.co/67y6PjKn/Whats-App-Image-2026-11-16-at-2-37-00-PM.jpg",
+"https://i.ibb.co/DgvVC7YL/Whats-App-Image-2026-11-16-at-2-37-01-PM-1.jpg",
+"https://i.ibb.co/Xx458xdN/Whats-App-Image-2026-11-16-at-2-37-01-PM-2.jpg",
+"https://i.ibb.co/DfY3TZQc/Whats-App-Image-2026-11-16-at-2-37-02-PM-1.jpg",
+"https://i.ibb.co/bMdSrCnR/Whats-App-Image-2026-11-16-at-2-37-02-PM-2.jpg",
+"https://i.ibb.co/CDFt3fK/Whats-App-Image-2026-11-16-at-2-37-02-PM.jpg",
+"https://i.ibb.co/PvY6dxkP/Whats-App-Image-2026-11-16-at-2-37-03-PM-1.jpg",
+"https://i.ibb.co/Rpv8r3mH/Whats-App-Image-2026-11-16-at-2-37-03-PM.jpg"
+];
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+
+/* gallery */
+/* image helper: no-referrer + one retry through a proxy if the host blocks hotlinking */
+function fixImg(im,u,onFail){im.referrerPolicy='no-referrer';let tried=false;im.onerror=()=>{if(!tried){tried=true;im.src='https://images.weserv.nl/?url='+encodeURIComponent(u.replace(/^https?:\/\//,''));}else if(onFail)onFail()};im.src=u}
+$$('img[referrerpolicy]').forEach(im=>{const u=im.getAttribute('src');im.onerror=()=>{if(!im.dataset.r){im.dataset.r=1;im.src='https://images.weserv.nl/?url='+encodeURIComponent(u.replace(/^https?:\/\//,''))}}});
+const gal=$('#gal'),lb=$('#lb'),lbi=lb.querySelector('img');
+SHOTS.forEach((u,i)=>{const d=document.createElement('div');d.className='shot';const im=new Image();im.alt='Community message '+(i+1);im.loading='lazy';fixImg(im,u,()=>d.remove());d.appendChild(im);d.onclick=()=>{lbi.src=u;lb.classList.add('show')};gal.appendChild(d)});
+lb.onclick=()=>lb.classList.remove('show');
+const step=()=>Math.min(280,innerWidth*.7);
+$('#gn').onclick=()=>gal.scrollBy({left:step(),behavior:'smooth'});
+$('#gp').onclick=()=>gal.scrollBy({left:-step(),behavior:'smooth'});
+
+/* reveal */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.14,rootMargin:'0px 0px -50px 0px'});
+$$('.rv').forEach(el=>io.observe(el));
+
+/* scroll: nav border, hero photo parallax, sticky */
+const nav=$('#nav'),photo=$('#photo'),sticky=$('#sticky');let tk=false;
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function sc(){
+  const y=scrollY;nav.classList.toggle('sc',y>10);sticky.classList.toggle('show',y>520);
+  if(!reduce&&y<900){const p=Math.min(y/700,1);photo.style.setProperty('--ty',(p*-26)+'px');photo.style.setProperty('--sc',(1-p*.06).toFixed(3))}
+  tk=false}
+addEventListener('scroll',()=>{if(!tk){tk=true;requestAnimationFrame(sc)}},{passive:true});sc();
+
+/* FAQ */
+$$('.q button').forEach(b=>b.onclick=()=>{const q=b.parentElement,was=q.classList.contains('open');$$('.q.open').forEach(x=>x.classList.remove('open'));if(!was)q.classList.add('open')});
+
+/* modals */
+const bd=$('#bd'),fm=$('#fm'),pm=$('#pm'),form=$('#form'),src=$('#src');
+function openF(s){src.value=s||'Website';bd.classList.add('show');fm.classList.add('show');document.body.style.overflow='hidden'}
+function closeAll(){bd.classList.remove('show');fm.classList.remove('show');pm.classList.remove('show');lb.classList.remove('show');document.body.style.overflow=''}
+document.addEventListener('click',e=>{const t=e.target.closest('.open');if(t){e.preventDefault();openF(t.dataset.source)}});
+$('#fx').onclick=closeAll;$('#px').onclick=closeAll;bd.onclick=closeAll;
+$('#ppBtn').onclick=()=>{bd.classList.add('show');pm.classList.add('show');document.body.style.overflow='hidden'};
+addEventListener('keydown',e=>{if(e.key==='Escape')closeAll()});
+
+function trackContact(source){try{if(typeof fbq==='function'){const id='lead_'+Date.now()+'_'+Math.random().toString(36).slice(2,8);fbq('track','Contact',{},{eventID:id});fbq('track','Lead',{content_name:'Community Join Form',content_category:source},{eventID:id})}}catch(e){}}
+document.querySelectorAll('.f input,.f select').forEach(el=>{['input','change'].forEach(ev=>el.addEventListener(ev,()=>el.closest('.f').classList.remove('bad')))});
+function bad(id,b){document.getElementById(id).closest('.f').classList.toggle('bad',b);return !b}
+form.addEventListener('submit',e=>{
+  e.preventDefault();
+  const name=$('#i_name').value.trim(),phone=$('#i_phone').value.replace(/\D/g,''),age=$('#i_age').value,gender=$('#i_gender').value,prof=$('#i_prof').value,source=src.value||'Website';
+  const ok=[bad('i_name',name.length<2),bad('i_phone',!/^[6-9]\d{9}$/.test(phone)),bad('i_age',!age||age<15||age>65),bad('i_gender',!gender),bad('i_prof',!prof)].every(Boolean);
+  if(!ok)return;
+  const params=new URLSearchParams({name,phone,age,gender,profession:prof,source:source+' | '+CLIENT});
+  try{fetch(SCRIPT_URL+'?'+params.toString(),{method:'POST',mode:'no-cors',keepalive:true}).catch(()=>{})}catch(err){}
+  const msg=encodeURIComponent(`Hello Zoha! 👋\n\nI'd like to join your women's skill community. Here are my details:\n\nName: ${name}\nPhone: ${phone}\nAge: ${age}\nGender: ${gender}\nProfession: ${prof}\n\nPlease share the next steps. Thank you!`);
+  trackContact(source);closeAll();setTimeout(()=>form.reset(),300);
+  window.open(`https://wa.me/${WA_NUMBER}?text=${msg}`,'_blank');
+});
+</script>
+</body>
+</html>
